@@ -13,7 +13,7 @@ def dfs(base_url: str):
     edges = []
     treasures = {}
     while len(stack) > 0:
-        curr_node = stack.pop(0)
+        curr_node = stack.pop()
         if curr_node in visited_nodes:
             continue
         visited_nodes.add(curr_node)
