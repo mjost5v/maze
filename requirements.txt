@@ -1,0 +1,6 @@
+requests
+networkx
+python3-bs4
+scrapy
+matplotlib
+pydot
